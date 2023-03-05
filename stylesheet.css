@@ -1,0 +1,29 @@
+/* selects the body element */
+body {
+    font-size: 24px;
+    background-color: rgb(47, 47, 47)
+}
+.paragraph {
+    color: pink;
+    /* text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   */
+}
+.paragraph a:link, a:visited {
+    color: magenta;
+    text-decoration: underline;
+}
+.paragraph a:hover, a:active {
+    color: rgb(255, 132, 234);
+    text-decoration: underline;
+}
+#main_title {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
